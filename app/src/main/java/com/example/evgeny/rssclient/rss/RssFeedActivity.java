@@ -58,8 +58,8 @@ public class RssFeedActivity extends AppCompatActivity implements RssFeedContrac
     }
 
     @Override
-    public void onResume() {
-        super.onResume();
+    public void onStart() {
+        super.onStart();
         rssFeedPresenter.provideRssFeedContent();
     }
 

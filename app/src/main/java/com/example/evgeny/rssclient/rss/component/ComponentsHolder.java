@@ -30,14 +30,6 @@ public class ComponentsHolder {
         components = new HashMap<>();
     }
 
-    public ApplicationComponent getAppComponent() {
-        return appComponent;
-    }
-
-    public ActivityComponent getActivityComponent(Class<?> cls) {
-        return getActivityComponent(cls, null);
-    }
-
     public ActivityComponent getActivityComponent(Class<?> cls, ActivityModule module) {
         ActivityComponent component = components.get(cls);
         if (component == null) {

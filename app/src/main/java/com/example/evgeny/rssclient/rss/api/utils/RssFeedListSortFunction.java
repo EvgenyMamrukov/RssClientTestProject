@@ -2,7 +2,6 @@ package com.example.evgeny.rssclient.rss.api.utils;
 
 import android.support.annotation.NonNull;
 
-import com.example.evgeny.rssclient.rss.api.model.RssFeed;
 import com.example.evgeny.rssclient.rss.api.model.RssItem;
 import com.example.evgeny.rssclient.rss.model.DateSort;
 
