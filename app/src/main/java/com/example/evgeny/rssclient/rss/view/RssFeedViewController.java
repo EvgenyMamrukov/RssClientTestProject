@@ -24,8 +24,8 @@ public class RssFeedViewController implements RssFeedContract.RssFeedView, Lifec
     private EndlessRecyclerViewScrollListener scrollListener;
 
     public RssFeedViewController(@NonNull RecyclerView rssFeedList, @NonNull RssFeedContract.RssFeedPresenter presenter) {
-        this.rssFeedList = rssFeedList;
         this.rssFeedPresenter = presenter;
+        this.rssFeedList = rssFeedList;
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
